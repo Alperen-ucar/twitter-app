@@ -1,0 +1,141 @@
+$dark-color: rgb(30, 39, 50);;
+
+.right-side {
+    background: #15202b;
+    color: #fff;
+    min-height: 100vh;
+    border-left: 1px solid gray;
+
+    .container {
+        position: sticky;
+        top: 0;
+        width: 90%;
+        // background-color: #1DA1F2;
+        margin: auto;
+    }
+}
+
+
+.search {
+    width: 90%;
+    margin: 10px auto;
+    
+    input {
+        width: 95%;
+        border-radius: 50px;
+        border:none;
+        padding: 10px;
+        font-size: 15px;
+        background-color: $dark-color;
+        color: rgb(92, 110, 126);
+    }
+}
+
+.trends {
+    margin: 15px auto;
+    width: 90%;
+    background-color: $dark-color;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+    .trend-element {
+        width: 100%;
+        margin: 15px 0;
+        cursor: pointer;
+    }
+
+    .trend-country {
+        opacity: 0.5;
+        font-size: 13px;
+    }
+
+    .trend-more {
+        position: absolute;
+        right: 30px;
+    }
+    .trend-text {
+       display: block;
+       font-weight: bolder;
+    }
+    .trend-tweet-text {
+        opacity: 0.5;
+        font-size: 13px;
+    }
+    
+}
+
+.show-more {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+
+.who-to-follow {
+    margin: 15px auto;
+    width: 90%;
+    background-color: $dark-color;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+
+    .profile-btn {
+        width: 15em;
+        padding: 15px;
+        border-radius: 50px;
+        border: none;
+        display: flex;
+        color: #fff;
+        img {
+            position: relative;
+            left: 0;
+            top: 0.2em;
+        }
+    
+        .profile-name {
+            position: absolute;
+            margin-top: 0.5em;
+            font-size: 13px;
+            width: fit-content;
+            color: #fff;
+        }
+
+        .profile-more {
+            position: relative;
+            left: 7em;
+            padding: 0;
+            margin: 0;
+            
+            button {
+                background-color: #fff;
+                color: #15202b;
+                border: none;
+                border-radius: 25px;
+                font-size: 15px;
+                padding: 1em 2em;
+            }
+        }
+
+        
+    }
+
+    .profile-btn:hover {
+        background-color: unset;
+    }
+}
+
+.message-btn {
+    display: flex;
+    justify-content: space-between;
+    background-color: #15202b;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-bottom: none;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
