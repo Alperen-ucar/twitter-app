@@ -1,6 +1,6 @@
 # Twitter Clone APP
 
-### React twitter clone app
+### ReactJS twitter clone app
 #### Usage Tech:
 - **SASS**
 - **ReactRouter**
