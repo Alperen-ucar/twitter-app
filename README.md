@@ -1,5 +1,5 @@
 # Twitter Clone APP
 
---React tiwtter clone app
+-- React tiwtter clone app
 
 
